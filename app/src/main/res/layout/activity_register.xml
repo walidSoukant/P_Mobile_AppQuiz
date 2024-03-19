@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:layout_margin="50dp">
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/logo"/>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/etUserName"
+         android:hint="User Name "
+         android:textSize="20sp"
+         android:drawableLeft="@drawable/baseline_account_circle_24"/>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/etMail"
+         android:hint="Email "
+         android:textSize="20sp"
+         android:drawableLeft="@drawable/baseline_mail_24"/>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/etPassword"
+         android:hint="Password *"
+         android:textSize="20sp"
+         android:inputType="textPassword"
+         android:drawableLeft="@drawable/baseline_lock_24"/>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/etConfirmPassword"
+         android:hint="Confirm Password *"
+         android:textSize="20sp"
+         android:inputType="textPassword"
+         android:drawableLeft="@drawable/baseline_lock_24"/>
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Sign up"
+         android:textSize="18sp"
+         android:id="@+id/bRegister"/>
+
+     </LinearLayout>
